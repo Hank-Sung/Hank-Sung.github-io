@@ -1,0 +1,140 @@
+/* all */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+}
+p{
+    color: #a8a8a8;
+    line-height: 1.8em;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    line-height: 70px;
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, .16);    */
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.left-content a,.right-content a{
+    position: relative;
+    text-decoration: none;
+    margin: 0px 30px;
+    transition: .3s;
+}
+
+.left-content a{
+    font-size: 25px;
+    font-weight: 900;
+    color: #333;
+}
+.right-content a{
+    font-weight: 500;
+    color: #333;
+}
+
+.left-content a:hover, 
+.right-content a:hover{
+    color: #bae136;
+}
+.right-content a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom:-15px;
+    opacity: 0;
+    right: 0px;
+    left: 0px;
+    background-color: #bae136;
+    transition: .6s;
+}
+.right-content a:hover::after{
+    opacity: 1;
+    bottom:-5px;
+}
+
+
+/* page-banner */
+
+.page-banner img{
+    width: 100vw;
+    max-width :100%;
+    
+}
+.page-banner h1{
+    padding: 10px 0px 60px;
+    text-align: center;
+}
+
+/* abstract */
+.container{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.abstract{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 180px;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+.item-img{
+    padding-bottom: 10px;
+}
+/* content */
+.content{
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: left;
+}
+.content h2{
+    margin-bottom: 20px;
+}
+.content h3{
+    margin-bottom: 5px;
+}
+.content p{
+    margin-bottom: 20px;
+}
+.img{
+    display: flex;
+    margin: 0 0 20px;
+    width: 600px;
+    object-fit: contain;
+}
+.img img{
+    width: 70%;
+    height: 70%;
+    padding-right: 30px;
+}
+.img img:nth-child(2){
+    width: 92%;
+    height: 92%;
+}
