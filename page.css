@@ -47,14 +47,12 @@ a{
     font-weight: 500;
     color: #000;
 }
-.right-content a:first-child{
-    color: #bae136;
-}
+
 .left-content a:hover, 
-.right-content a:not(:first-child):hover{
+.right-content a:hover{
     color: #bae136;
 }
-.right-content a:not(:first-child)::after{
+.right-content a::after{
     content: '';
     position: absolute;
     width: 100%;

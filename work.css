@@ -47,14 +47,14 @@ a{
     font-weight: 500;
     color: #000;
 }
-.right-content a:first-child{
+.right-content a:nth-child(2){
     color: #bae136;
 }
 .left-content a:hover, 
-.right-content a:not(:first-child):hover{
+.right-content a:not(:nth-child(2)):hover{
     color: #bae136;
 }
-.right-content a:not(:first-child)::after{
+.right-content a:not(:nth-child(2))::after{
     content: '';
     position: absolute;
     width: 100%;
