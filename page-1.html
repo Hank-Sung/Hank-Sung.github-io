@@ -18,26 +18,24 @@
 
         <div class="right-content">
             <a href="about.html">About</a>
-            <a href="work.html">Work</a>
             <a href="https://drive.google.com/file/d/1wMKS2IW8IZVV1Jdm-7Jyrtw09y0AEo4_/view?usp=sharing" target="blank">Resume</a>
         </div>
     </div>
     <!-- top-banner -->
     <div class="page-banner">
-        <img src="banner1-2.png" alt="">
-        <h1>Benq APP Redisgn</h1>
+        <img src="banner.png" alt="">
     </div>
     <!-- abstract -->
     <div class="container abstract">
         <div class="item">
             <div class="item-img"><i class="fas fa-newspaper fa-2x"></i></div>
             <p>五人一組</p>
-            <p>使用者專題作業</p>
+            <p>學生專案</p>
         </div>
         <div class="item">
             <div class="item-img"><i class="fas fa-user-alt fa-2x"></i></div>
             <p>擔任組長</p>
-            <p>主要負責製作prototpe</p>
+            <p>ux design</p>
         </div>
         <div class="item">
             <div class="item-img"><i class="fas fa-clock fa-2x"></i></div>
@@ -46,57 +44,93 @@
     </div>
     <!-- content -->
     <div class="container content">
-        <h2>1. 問題定義</h2>
-        <h3>作業需求</h3>
-        <p>在廣州Benq擔任UX設計師的學長希望我們依照他列的需求清單去重新設計一份遙控器的 prototype，並希望有創意的展現。</p>
-        <h3>產品分析</h3>
-        <p>我們先比較了實體的遙控器和benq的app，發現介面上的功能大幅減少，幾乎只保留了重要功能諸如開關、音量大小、遙控鍵……；之後分別比較benq、堅果和極米的app後發現，除了極米有添加連動影視帳號、社群分享的功能外；另外兩者都專注在必要功能上而不多做設計，介面也走比較簡約的現代風格。</p>
-        <h3>優/缺點</h3>
-        <p>簡潔的優點在於容易理解，不需要時間成本；但是也許在某些需求方面沒辦法滿足，所以我們就朝這個方向著手。</p>
+        <h2>Introduction</h2>
+        <p>在廣州Benq擔任UX Designer的學長所出的任務，希望我們以投影遙控器為主題製作一個app的原型。投影機在主要分為居家娛樂及商用兩種使用情境，我們以後者為主要使用情境進行研究與設計。</p>
     </div>
 
     <div class="container content">
-        <h2>2. 設計過程</h2>
-        <h3>設計限制</h3>
-        <p>我們無法得知具體來說那些功能是可以透過app操控，同時不確定是要針對商用情境還是家庭情境進行設計；除此之外由於組員來自各個年級與系所，所以時間很難喬攏，基本上只有一周一次的上課時間可以大家聚在一起討論。</p>
-        <h3>設計發想</h3>
-        <p>在討論過後我們決定針對會議情境，增加簡報相關的功能，包括可以針對回饋進行筆記或補充、將重點透過截圖或錄影紀錄下來、甚至可以多人共編。</p>
-        <h3>資訊架構</h3>
+        <h2>Observation</h2>
         <div class="img">
-            <img src="new1.png" alt="">
+            <img src="p-1-1.png" alt="">
         </div>
-        <p>我們將功能分成三個大區塊，分別是連接介面、遙控介面和設定介面。使用者開啟app後會展示連接頁面，讓使用者可以立刻選擇欲連接的設備；之後可以切換至遙控頁面，進行操控；最後若要更改投影機的設定則可以透過設定頁面來達成需求。</p>
-        <h3>遭遇困難</h3>
-        <p>在第一次由其他組別的成員進行易用性測試時，簡報功能整個的設計邏輯不夠順暢的狀況下，反而干擾操作；之後其他組別的回饋也表示這個功能似乎太虛浮。在距離成果發表只剩一個禮拜的狀況下，我們最後移除這部分功能，專心把遙控器的部分修好。</p>
+        <p>在商用情境(包含會議、演講、學校授課…)中，會由行政人員(助教)先啟動裝置，確認投影機及相關設備可以正常運作，再交由講者使用。其中如果遇到無法解決的問題，則會通知技術人員來協助。</p>
     </div>
 
     <div class="container content">
-        <h2>3. 設計結果</h2>
-        <h3>Before/after</h3>
+        <h2>Interview</h2>
+        <p>在訪談2名學校教師、1名助教以及1名公司主管，整理出以下痛點：
+        </p>
+        <p>1.無法確認機器是否正常開啟，或是與喇叭、電腦是否正常連線</p>
+        <p>2.當設定跑掉時，不知道該怎麼調整</p>
+        <p>3.由於行政人員的流動率問題(離職、畢業等)，需要一直花時間教導基本流程</p>
+    </div>
+    <div class="container content">
+        <h2>Persona</h2>
         <div class="img">
-            <img src="new2.png" alt="">
-            <img src="new2-1.png" alt="">
+            <img src="p-1-2.png" alt="">
+            <img src="p-1-2-3.png" alt="">
         </div>
-        <h3>版面的重新編排 </h3>
-        <p>將常用的按鍵移至版面的下方，讓單手持握時更容易按到，於此相對地把不希望被誤觸的按鈕移到上方。</p>
-        <h3>更多的遙控模式</h3>
-        <p>除了最原始的上下左右鍵，還增加觸控屏幕以及搖桿模式，上下左右鍵讓習慣實體遙控器的人減少學習成本；觸控屏幕效仿 apple的實體遙控器，讓操作頁面更簡潔直覺；搖桿則是讓操作可以像電玩機檯一般的快速滑動。</p>
+        <p>
+            根據觀察與訪談的結果，我們希望應用程式可以以極低的學習成本，讓使用者可以迅速確認設備狀態，並在出現小問題時可以自己快速排除，不需要額外尋求協助。
+        </p>
     </div>
 
     <div class="container content">
-        <h2>4. 學習與收穫</h2>
-
-        <h3>回饋</h3>
-        <p>學長最後回饋兩點分別是可以考慮增加防呆機制，比如在連接到裝置前可以把其他兩個頁面暫時鎖起來，畢竟沒連到其他頁面也不能用；除此之外就是我們在做的時候會希望使用者可以依據自己的需求對介面做出調整，但也許太多的功能反而會增加使用者的負擔。</p>
-        <h3>總結</h3>
-        <p>除了設計上的欠缺外，因為希望聽到更多不同的聲音，所以我跟完全沒共事過的人一組，在溝通上花了蠻多時間，但我們可以討論的時間又很少，也不是每次討論都是全員到齊，導致在資訊上的一些落差影響後期製作prototype時常常又需要回去再做功能上的確認。
-        針對這些問題在下次的作業就需要更明確的分工以及詳細的紀錄，同時需要確認美部份的具體狀況。</p>
+        <h2>functional map</h2>
+        <div class="img">
+            <img src="p-1-f.png" alt="">
+        </div>
     </div>
 
+    <div class="container content">
+        <h2>Wireframe</h2>
+        <div class="img">
+            <img src="p-1-3(1).png" alt="">
+        </div>
+    </div>
+
+    <div class="container content">
+        <h2>Prototype</h2>
+        <div class="img">
+            <img src="p1-4-1.png" alt="">
+        </div>
+        <h3>連線頁面</h3>
+        <p>手機透過藍芽連接設備時，除了點選手機掃描到的附近設備之外，我們也增加了掃描QR code的功能，讓手機在無法搜尋到欲連接設備時可以有其他解決辦法。同時在成功連接後，可以看到與投影機相連的其他設備，讓使用者可以確認現在設備之間的連線是否正常。</p>
+        <div class="img">
+            <img src="p1-4-3.png" alt="">
+            <div class="container content">
+                <h3>遙控頁面</h3>
+                <p>
+                    根據雅各布法則(Jakob’s Law)，遵循使用者原本習慣的心智模型，可以有效降低使用者的入手難度。所以我們採用傳統遙器形式，降低學習成本，讓使用者可以快速上手。
+                </p>
+                <p>
+                    除此之外，我們也遵照使用者使用手機的習慣，將常用的功能放在中間偏下，讓單手持握時可以輕鬆的觸碰到；而像是關機、首頁等功能則放置在螢幕的上方，避免誤觸。
+                </p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="p1-4-4.png" alt="">
+            <div class="container content">
+                <h3>設定頁面</h3>
+                <p>
+                    根據希克定律(Hick’s law)，越多的選擇會反而會降低決策的速度。我們在第一層選單只列出最常需要調整的細項，讓使用者可以
+                    第一時間做處理問題；若是一樣無法解決再去打開進階設定做進一步的確認。
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container content">
+        <h2>Result</h2>
+        <p>以完整性及合理性為考量，在學長最後的評分中，獲得總分第一。</p>
+    </div>
     <!-- footer -->
     <div class="footer">
         <p><i class="fas fa-envelope"></i>hank4482@gmail.com</p>
-        <p><i class="fas fa-mobile"></i>0905738303</p>
+        <p>Copyright © 2021 Hank Sung</p>
     </div>
     
     <!-- iconFont -->
